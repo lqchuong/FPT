@@ -1,0 +1,10 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'push-notifications-ios' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+	pod 'PushNotifications', '~> 3.0.4'
+  # Pods for push-notifications-ios
+
+end

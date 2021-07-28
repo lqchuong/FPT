@@ -1,0 +1,45 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+
+
+target 'CoreNotificationsTest' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CoreNotificationsTest
+	pod 'Firebase/Analytics'
+ 
+    pod 'Firebase/Messaging'
+    pod "youtube-ios-player-helper"
+target 'CoreNotifications' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CoreNotifications
+	pod 'Firebase/Analytics'
+ 
+    pod 'Firebase/Messaging'
+    pod "youtube-ios-player-helper"
+end
+
+target 'CoreNotificationServiceExtension' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CoreNotificationService
+
+end
+
+target 'CoreNotificationContentExtension' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CoreNotificationService
+  pod 'Firebase/Analytics'
+ 
+    pod 'Firebase/Messaging'
+    pod "youtube-ios-player-helper"
+end
+
+end

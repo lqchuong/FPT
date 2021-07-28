@@ -1,0 +1,6 @@
+framework module Pods_CoreNotificationsTest_CoreNotificationServiceExtension {
+  umbrella header "Pods-CoreNotificationsTest-CoreNotificationServiceExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

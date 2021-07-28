@@ -1,0 +1,16 @@
+PODS:
+  - PushNotifications (3.0.4)
+
+DEPENDENCIES:
+  - PushNotifications (~> 3.0.4)
+
+SPEC REPOS:
+  trunk:
+    - PushNotifications
+
+SPEC CHECKSUMS:
+  PushNotifications: 6e3d148e5e129af9d4a9279b288c934f9a7f9066
+
+PODFILE CHECKSUM: d9ebe5b323ff1558c6d1f899d6ee62d9b80714e7
+
+COCOAPODS: 1.10.1

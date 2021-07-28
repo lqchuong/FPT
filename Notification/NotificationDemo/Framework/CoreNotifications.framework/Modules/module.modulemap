@@ -1,0 +1,11 @@
+framework module CoreNotifications {
+  umbrella header "CoreNotifications.h"
+
+  export *
+  module * { export * }
+}
+
+module CoreNotifications.Swift {
+    header "CoreNotifications-Swift.h"
+    requires objc
+}
